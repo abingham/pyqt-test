@@ -1,6 +1,4 @@
-qt_test
-
-Testing out PyQt5.
+Figuring out tables and models.
 
 Install and run
 ===============
@@ -8,4 +6,4 @@ Install and run
 .. code-block:: bash
 
     python setup.py install
-    python -m qt_test
+    python -m table_test

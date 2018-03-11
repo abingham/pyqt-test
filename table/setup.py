@@ -24,8 +24,8 @@ def find_version(*file_paths):
 long_description = read('README.rst', mode='rt')
 
 setup(
-    name='qt_test',
-    version=find_version('src/qt_test/version.py'),
+    name='table_test',
+    version=find_version('src/table_test/version.py'),
     packages=find_packages('src', exclude=['contrib', 'docs', 'test*']),
     author='Sixty North AS',
     author_email='austin@sixty-north.com',
@@ -41,8 +41,8 @@ setup(
     ],
     platforms='any',
     include_package_data=True,
-    package_dir={'qt_test': 'src/qt_test'},
-    package_data={'qt_test': ['ui/*.ui']},
+    package_dir={'table_test': 'src/table_test'},
+    package_data={'table_test': ['ui/*.ui']},
     install_requires=[
         'PyQt5',
     ],
@@ -56,7 +56,7 @@ setup(
     },
     entry_points={
         # 'console_scripts': [
-        #    'qt_test = qt_test.cli:main',
+        #    'table_test = table_test.cli:main',
         # ],
     },
     long_description=long_description,

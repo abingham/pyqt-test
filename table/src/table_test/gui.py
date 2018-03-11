@@ -52,7 +52,7 @@ def main():
     app = QApplication(sys.argv)
     mainwindow = uic.loadUi(
         pkg_resources.resource_filename(
-            'qt_test', 'ui/mainwindow.ui'))
+            'table_test', 'ui/mainwindow.ui'))
     table_view = mainwindow.findChild(
         QTableView,
         'tableView')
