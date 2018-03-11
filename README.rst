@@ -1,11 +1,7 @@
-qt_test
+=======
+Qt Test
+=======
 
-Testing out PyQt5.
+Just getting (back) up to speed with PyQt5.
 
-Install and run
-===============
-
-.. code-block:: bash
-
-    python setup.py install
-    python -m qt_test
+Each subdirectory has some PyQt experiment.
