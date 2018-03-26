@@ -1,4 +1,4 @@
-Figuring out tables and models.
+Figuring out matplotlib in qt.
 
 Install and run
 ===============
@@ -6,4 +6,4 @@ Install and run
 .. code-block:: bash
 
     python setup.py install
-    python -m table_test
+    python -m plot_test
